@@ -14,7 +14,7 @@ def get_github_json(url):
         return None
 
 # Ganti URL dengan URL repository GitHub yang menyediakan data JSON
-github_url = "https://raw.githubusercontent.com/username/repository/main/data.json"
+github_url = "https://pondokkodemks.github.io/data.json"
 
 # Panggil fungsi dan terima data JSON
 json_data = get_github_json(github_url)
