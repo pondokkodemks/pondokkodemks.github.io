@@ -1,0 +1,21 @@
+#success-popup {
+    display: none;
+    background-color: rgba(76, 175, 80, 0.5); /* Warna latar belakang dengan opasitas 50% */
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    z-index: 999;
+}
+
+#uploadBtn {
+    margin-bottom: 20px; /* Menambahkan margin bawah agar pop-up sejajar */
+}
+
+#success-popup {
+    width: 120px; /* Mengatur lebar pop-up */
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+}
